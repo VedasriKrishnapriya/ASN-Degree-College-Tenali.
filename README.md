@@ -1,1 +1,1 @@
-# ASN-Degree-College-Tenali.
+# ASN Degree College-Tenali.
