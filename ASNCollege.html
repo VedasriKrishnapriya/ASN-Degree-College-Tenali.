@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Alumni</title>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #c35252;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+header nav ul li a:hover {
+    background-color: #575757;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+section {
+    background: #fbd4d4;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 2s ease-in;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery img {
+    width: calc(33.333% - 10px);
+    margin-bottom: 15px;
+}
+#map-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#map-container h3 {
+    margin-bottom: 10px;
+}
+
+#map-container iframe {
+    width: 100%;
+    height: 450px;
+    border: 0
+}
+* {box-sizing: border-box;}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid;
+}
+.btn {
+  background-color: #f67777;
+  color: #000000;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+footer {
+    background-color: #201c1c;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; 
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+input[type="checkbox"] {
+    width: 15px; 
+    height: 15px; 
+    margin-right: 5px;
+}
+label {
+            margin-right: 20px; /* Adjust the space between labels */
+            display: inline-block;
+        }
+        .form-container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        input[type="checkbox"] {
+            width: 15px; /* Adjust the width as needed */
+            height: 15px; /* Adjust the height as needed */
+        }
+        .popup {
+            display: none;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: white;
+            border: 2px solid black;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+        }
+        .popup button {
+            margin-top: 10px;
+        }
+    
+</style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="C:\Users\krish\Pictures\Screenshots\Screenshot 2024-10-20 124420.png">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#Regester">Regester</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#history">History</a></li>
+                    <li><a href="#photo-gallery">Photo Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<div class="fade-in">
+    <section id="home">
+        <div class="container">
+            <h2>Welcome to our College Alumni..!!</h2>
+            <p>We are enlitened to have you here.Welcome To the amazing and ever-growing "Alumni Network of A.S.N College". 
+            The college takes pride in knowing that its alumni are doing well both healthwise and professionally, reaching great heights in their respective fields. 
+            We hope you will embrace the opportunity to represent your college with pride. Come Home to ASN and Connect with your batchmates and friends, and relive those memories!</p>
+        </div>
+    </section>
+    <section id="history">
+        <div class="container">
+            <h2>Our History</h2>
+        <p>Located in Tenali, Andhra Pradesh, Annabattuni Satyanarayana Degree College was established in 1988. 
+            Annabattuni Satyanarayana Degree College, a leading institute in higher education, offers Diploma and Degree courses to students. 
+            These courses are provided at the UG and PG levels across IT & Software, Engineering, Science and Accounting & Commerce streams. 
+            The institute offers courses in Full Time mode. The institute is famous for offering courses such as B.Com, B.Sc., BCA, M.Sc., PG Diploma and UG Diploma. 
+            Annabattuni Satyanarayana Degree College students are taught by faculty who are trained professionals in fields such as Computer Science Engineering, 
+            Mathematics and Computer Science.To avail of this quality education, students must pay fee ranging between INR 36,000-54,000.
+            With this institute, students can enjoy studying in the state of the art infrastructure.</p>
+        </div>
+        <div class="row">
+            <div class="column" style="background-color:#ead7d7;">
+              <h2>Founder of the College</h2><p>Sri Annabathuni Sathyanarayana (ASN)</p>
+              <img src="C:\musicart\asn.jpg" alt="Photo 1">
+            </div>
+            <div class="column" style="background-color:#ead7d7;">
+              <h2>Chairman</h2><p> Sri Annabathuni Siva Kumar</p>
+              <img src="C:\musicart\asns.jpg" alt="Photo 2">
+            </div>
+            <div class="column" style="background-color:#ead7d7;">
+              <h2>Principal</h2><p>Sri Dr. Ramchand Kolasani</p>
+              <img src="C:\musicart\asnr.jpg">
+            </div>
+          </div>
+    </section>
+    <section id="Regester">
+        <form name="submit-to-google-sheet"  style="max-width:500px; margin:auto;">
+            <h2>Register For Alumni 2025</h2>
+            <div class="input-container">
+              <input class="input-field" type="text" placeholder="Name" name="name" required>
+            </div>
+            <div class="input-container">
+                <input class="input-field" type="text" placeholder="Rollno" name="rollno" required>
+              </div>
+              <div class="input-container">
+                <label for="gender">Gender:</label><br>
+                <label for="male">
+                    <input type="checkbox" id="male" name="gender" value="male">
+                    Male
+                </label>
+                <label for="female">
+                    <input type="checkbox" id="female" name="gender" value="female">
+                    Female
+                </label>
+              </div>
+            <div class="input-container">
+              <input class="input-field" type="text" placeholder="Email" name="email" required>
+            </div> 
+            <div class="input-container">
+              <input class="input-field" type="text" placeholder="Branch & Department" name="department" required>
+            </div>
+            <div class="input-container">
+                <input class="input-field" type="text" placeholder="Graduated Year" name="year" required>
+            </div>
+          <button type="submit" class="btn">Register</button>
+          </form>
+          <div class="popup" id="popup">
+            <p>Registration Successful!</p>
+            <button onclick="hidePopup()">Close</button>
+        </div>
+          <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxRXWJG_6lEDFUrbS_ZIN_2wa3eQjAsxE2CAayIpM5VupNLa5fjM_26FJHMuAdWE3k/exec'
+            const form = document.forms['submit-to-google-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+            })
+            function showPopup(event) {
+            event.preventDefault(); // Prevent the form from submitting normally
+            document.getElementById('popup').style.display = 'block';
+        }
+        </script>
+<script>
+        function hidePopup() {
+            document.getElementById('popup').style.display = 'none';
+        }
+    </script>
+          </script>
+    </section>
+    <section id="events">
+        <div class="container">
+            <h2>Events</h2>
+            <ul>
+                <li>Welcoming Speech for graduates&Alumni Students</li>
+                <li>Cultural fest by current Students.</li>
+                <li>Chairman and Principal sir's Speeches</li>
+                <li>Games and singing competetions</li>
+                <li>Lunch with the whole family.</li>
+                <li>Prizes Distributions </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="photo-gallery">
+        <div class="container">
+            <h2>Photo Gallery</h2>
+            <div class="gallery">
+                <img src="C:\musicart\Family\asn7.jpeg" alt="Event Photo 1">
+                <img src="C:\musicart\Family\asn11.jpeg" alt="Event Photo 2">
+                <img src="C:\musicart\Family\asn1.jpg" alt="Event Photo 4">
+                <img src="C:\musicart\Family\asn3.jpg" alt="Event Photo 5">
+                <img src="C:\musicart\Family\asn8.jpeg" alt="Event Photo 6">
+                <img src="C:\musicart\Family\asn6.jpeg" alt="Event Photo 7">
+                <img src="C:\musicart\Family\asn10.jpeg" alt="Event Photo 8">
+                <img src="C:\musicart\Family\asn12.jpeg" alt="Event Photo 9">
+                <img src="C:\musicart\Family\asn9.png" alt="Event Photo 10">
+                <img src="C:\musicart\Family\asn2.jpg" alt="Event Photo 3">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <h3>Phone:</h3><p>086442 28821</p>
+            <h3>Mail:</h3><p>gowbudhaeds_asn yahoo.com</p>
+        </div>
+    <div id="map-container">
+        <h3>Our Location</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3830.561829663237!2d80.64589767490796!3d16.242950784462014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4a060e6466c3d9%3A0x92c7713b3e8c0921!2sASN%20Degree%20College!5e0!3m2!1sen!2sin!4v1729438019971!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; A.S.N college. All rights reserved.</p>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>
